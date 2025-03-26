@@ -1,0 +1,41 @@
+
+.conteneur{
+    max-width: 700px;
+    border: solid black 1px;
+    margin: 10px auto;
+    box-shadow: blue 2px 1px;
+}
+#titre{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+section {
+    margin: 10px auto;
+    max-width: 500px;
+}
+
+.ca-section {
+    display: flex;
+    align-items: center; /* Aligne les éléments verticalement */
+    margin-bottom: 20px; /* Ajoute un espacement entre les sections */
+}
+
+.ca-section h2 {
+    flex: 1; /* Prend l'espace disponible à gauche */
+    margin: 0; /* Supprime les marges par défaut */
+    font-size: 20px;
+}
+.isRed{
+    color: #e4002b;
+}
+.ca-value {
+    border: solid rgb(153, 145, 198) 2px;
+    min-width: 150px;
+    padding: 10px;
+    text-align: center; /* Centre le texte dans la case */
+    box-shadow: blue 2px 1px;
+}
+.frmBtn{
+    text-align: center;
+}
